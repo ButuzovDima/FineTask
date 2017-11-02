@@ -7,4 +7,6 @@ let binarySearch = function(array, f){
         if(f > array[k]) l = k + 1;
         if(f < array[k]) r = k - 1;
     }
+    return 'not found';
 };
+
